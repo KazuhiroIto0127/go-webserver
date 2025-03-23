@@ -122,7 +122,8 @@ exports.handler = async (event) => {
     const updateParams = {
       cluster: clusterName,
       service: serviceName,
-      forceNewDeployment: true
+      forceNewDeployment: true,
+      desiredCount: 1
     };
 
     // 新しいタスク定義で更新する場合
