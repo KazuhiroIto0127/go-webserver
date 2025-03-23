@@ -17,7 +17,7 @@ func main() {
 
 	// ハンドラー関数を定義
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Hello, ECS! サーバーが正常に動作しています。いえい3回目🧸")
+		fmt.Fprintf(w, "Hello, ECS! サーバーが正常に動作しています。いえい４回目だよ🧸")
 	})
 
 	// ヘルスチェック用エンドポイント

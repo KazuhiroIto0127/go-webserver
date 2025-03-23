@@ -1,0 +1,13 @@
+{
+  "name": "ecr-to-ecs-deployer",
+  "version": "1.0.0",
+  "description": "ECRイメージプッシュをECSデプロイに変換するLambda関数",
+  "main": "ecr-to-ecs-deployer.js",
+  "dependencies": {
+    "@aws-sdk/client-ecs": "^3.409.0",
+    "@aws-sdk/client-ssm": "^3.409.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
